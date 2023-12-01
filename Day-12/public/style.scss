@@ -1,0 +1,22 @@
+$primary-color:black;
+$text-color:red;
+$heading-color:purple;
+*{
+    margin:0;
+    padding:0;
+}
+.sass-tutorial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: $primary-color;
+    h1{
+        font-size: 30px;
+        color:$heading-color;
+    }
+    p{
+        color: $text-color;
+    }
+}

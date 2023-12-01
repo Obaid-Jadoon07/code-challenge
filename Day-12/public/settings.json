@@ -1,0 +1,18 @@
+// settings.json
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/dist/css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.autoprefix": [],
+    "liveSassCompile.settings.useBuiltinCompiler": false,
+    "liveSassCompile.settings.customOutputDirectory": "/dist/css"
+}
+
