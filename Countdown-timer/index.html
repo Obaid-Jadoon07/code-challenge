@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css>
+    <title>Countdown-Timer</title>
+</head>
+<body>
+    <div class="wrapper">
+       <div class="start">
+        <div class="top-start">
+            <img src="/images/Logo.svg" alt="" />
+        </div>
+<div class="top-mid">
+    <div class="time">
+<div id="demo"></div>
+<div id="labels"></div>
+</div>
+<div class="content">
+    <h2>We are Coming Soon</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+    <div class="contact">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <button class="notify " >Notify Me<i class="fa-solid fa-arrow-right"></i> </button>
+    </div>
+</div>
+</div>
+<div class="social">
+    <img src="/images/fb.svg" alt="" />
+    <img src="/images/git.svg" alt="" />
+    <img src="/images/insta.svg" alt="" />
+    <img src="/images/tweet.svg" alt="" />
+
+</div>
+
+
+
+
+
+       </div>
+       <!-- end side of wrapper -->
+       <div class="end">
+        <div class="meet">
+        <img src="/images/meetone.svg" alt="" />
+        <img src="/images/meettwo.svg" alt="" />
+        <img src="/images/meetthree.svg" alt="" />
+        <img src="/images/meetfour.svg" alt="" />
+        <img src="/images/meetfive.svg" alt="" />
+        <img src="/images/meetsix.svg" alt="" />
+    </div>
+
+       </div>
+
+
+
+
+
+
+
+      </div>
+
+      <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 10, 2024 15:37:25").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+            
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+            
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+          // Output the result in an element with id="demo"
+          document.getElementById("demo").innerHTML = days + " :" + hours + ": "
+          + minutes + ": " + seconds + "";
+          // Output the labels in an element with id="labels"
+    document.getElementById("labels").innerHTML = "Days Hours Mins Sec";
+            
+          // If the count down is over, write some text 
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+
+
+
+
+</body>
+
+</html>
