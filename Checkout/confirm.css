@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+}
+/* main-div */
+.main{
+    display: flex;
+width: 100%;
+padding: 104px 0px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+/* logo-div */
+.head{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 48px;
+}
+.head p{
+    color: #6C6C6C;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.2px; /* 120% */
+}
+/* heading */
+.head h2{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+/* confirm order */
+.confirm-order{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+
+}
+.confirm-order p{
+    color: #6C6C6C;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.2px; /* 120% */
+}
+.confirm-order h2 {
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 20.212px; /* 84.215% */
+}
+/* containg all content */
+.content{
+    display: flex;
+    padding: 16px 564px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+margin-top: 96px;
+}
+/* form styling start */
+.progess-bar{
+    display: flex;
+    
+        width: 45%;
+        justify-content: space-evenly;
+        margin-top: 24px;
+        margin-left:20px;
+}
+.progess-bar .success{
+    color:  #707070;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.progess-bar p{
+    color:  #707070;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* order summary */
+.summary{
+gap: 16px;
+align-self: stretch;
+margin-top: 96px;
+
+}
+
+.summary-details div{
+    display: flex;
+    justify-content: space-between;
+    gap:8px;
+}
+.order{
+    color: #212121;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px; /* 112.5% */
+margin-bottom: 16px;
+}
+.left{
+    color: #696969;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 19.2px; /* 137.143% */
+}
+.charge{
+    color: #696969;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 19.2px;
+}
+.total{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 19.2px; /* 120% */
+}
+/* for progess bar */
+.icon{
+    position: relative;
+    flex:1;
+
+}
+.icon:after {
+    content: " ";
+    height: 2px;
+    width: 100%;
+    background: #94A3B8;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: -1;
+}
+.image-button{
+    display: flex;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+border-radius: 8px;
+border: 1px solid #6B4EFF;
+width:100%;
+background: white;
+margin-top: 24px;
+}
+.button-text{
+    color: #6B4EFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none !important;
+
+}
+@media only screen and (max-width: 1200px) {
+    body {
+      font-size: 12px;
+    }
+    summary {
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+    }
+    .content{
+        padding:16px 200px;
+    }
+    .image-button {
+        width:100%;
+        padding: 25px;
+    }
+  }
+@media only screen and (min-width: 1200px) and (max-width:1500px) {
+    .content {
+        padding: 16px 400px;
+    }
+
+}
+@media only screen and (min-width: 375px) and (max-width:700px) {
+    .content{
+        padding: 16px 80px;
+    }
+}
