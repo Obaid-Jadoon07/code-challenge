@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+
+}
+
+/* LEFT SIDE OF PAGE */
+.left {
+    width: 65%;
+    background-image: url("/images/people.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.btn {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+/* NAVBAR */
+.nav img {
+    width: auto !important;
+}
+
+.nav-item {
+    color: #25202F;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+div#navbarNav {
+    justify-content: center;
+    gap: 24px;
+}
+
+ul.navbar-nav {
+    gap: 24px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* RIGHT SIDE OF PAGE */
+
+.right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: #130075;
+    padding: 36px;
+    flex-shrink: 0;
+}
+
+.nav-sec {
+    display: none;
+}
+
+.breadcrumb {
+    padding: 0 .5rem;
+}
+
+.breadcrumb ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .25rem;
+    content: ">";
+}
+
+::after {
+    color: white;
+}
+
+nav li a {
+    color: #D3D3D3;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-decoration: none;
+}
+
+nav li span {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.right h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.loan-text {
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: -10px;
+}
+
+/* FORM */
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    flex: 1 0 0;
+    position: relative;
+}
+
+label {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input {
+    font-family: inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    width: 100%;
+    border: none;
+    background-color: #130075;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+.form-control {
+    display: flex;
+    padding: 10px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 5px; */
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #E6F0FF;
+    background-color: #130075;
+}
+
+.form-control p {
+    color: #212121;
+    align-self: stretch;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-group {
+    margin-top: 16px;
+}
+
+.vehicle-input {
+    display: flex;
+    align-items: center;
+}
+
+.vehicle-input span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.names {
+    display: flex;
+    gap: 16px;
+}
+
+.car-choice {
+    display: flex;
+    padding: 4px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px 0 0 8px;
+    border: 1px solid #E6F0FF;
+    flex: 1 0 0;
+}
+.vehicle-choice {
+    display: flex;
+    padding: 0px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid #E6F0FF;
+    flex: 1 0 0;
+}
+
+
+.form-select {
+    background-color: #130075;
+    border: none;
+    color: #FFF;
+    padding: 0px;
+}
+
+.car {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 12px;
+    margin-top: 4px;
+
+}
+
+.prod {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.loan {
+    display: flex;
+    align-items: center;
+}
+.upfront-payment {
+    border-radius: 8px 0 0 8px;
+}
+
+.model {
+    width: 80%;
+    border-right: 0px;
+}
+
+.interest-rate {
+    width: 20%;
+    border-radius: 0 0 0 0;
+        display: flex;
+       
+}
+
+.interest-amount {
+    width: 20%;
+    border-radius: 0 8px 8px 0;
+display: flex;
+    
+}
+
+.upfront-payment {
+    width: 80%;
+
+}
+
+.right-upfront {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 20%;
+}
+.right-upfront{
+    border-radius: 0 8px 8px 0;
+}
+
+/* ESTIMATED MONTHLY */
+.Estimated-monthly {
+    display: flex;
+    width: 100%;
+    padding: 16px 32px;
+    flex-direction: column;
+    /* gap: 16px; */
+    background-color: #FFF;
+    border-radius: 16px;
+    background: #E6F0FF;
+}
+
+.monthly-payment {
+    color: #6C6C6C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-transform: capitalize;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67.2px;
+}
+
+/* SUMMARY DETAILS */
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    gap: 8px;
+}
+
+.pay {
+    color: #696969;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.charge {
+    color: #696969;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    
+}
+
+.detail p {
+    margin-bottom: 0px !important;
+}
+
+.image-button {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+    background: var(--Blue, #6B4EFF);
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    border: none;
+    align-self: center;
+}
+
+.plan {
+    color: #6B4EFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    align-self: center;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 990px) {
+
+    .left {
+        display: none !important;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .nav-sec {
+        display: block;
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+}
+    @media only screen and (max-width: 450px) {
+        .right {
+            padding:16px;
+        }
+       .form-control {
+        padding:2px 6px;
+       }
+        
+    }
