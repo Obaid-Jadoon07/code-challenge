@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css>
+    <title>User Profile Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="/images/Logo.svg" alt="logo" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mortgage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Loans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Investments</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-primary" type="submit">Get Started</button>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="inner-container">
+            <nav class="Bread" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Alumni</a></li>
+                    <li class="breadcrumb-item"><a href="#">Graduates</a></li>
+                    <li class="breadcrumb-item"><a href="#">2018</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Jane Doe</li>
+                </ol>
+            </nav>
+            <div class="main-container">
+                <!-- left side of main -->
+                <div class="left-side">
+                    <div class="left-inside">
+                        <div class="first-detail">
+                            <img src="/images/Avatar.png" alt="Avatar" />
+                            <span class="Jane">Jane Doe</span>
+                            <div class="occupation">
+                                <span class="software">Software Developer</span>
+                                <span class="sol">at Tech Solutions Inc.</span>
+                                <span class="sol">Sydney</span>
+                            </div>
+
+
+
+                        </div>
+                        <div class="second-detail">
+                            <span class="study">Class of 2018 (2014-18)</span>
+                            <span class="study">Bachelor of Science in Computer Sciences</span>
+                        </div>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-value">4</span>
+                                <span class="stat-title">Years of<br>
+                                    Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">17</span>
+                                <span class="stat-title">Projects<br>
+                                    Completed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">2</span>
+                                <span class="stat-title">Researches<br>
+                                    Published</span>
+                            </div>
+                        </div>
+                        <div class="last-detail">
+                            <div class="contacts">
+                                <div class="contact">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>012-310-437-2766</span>
+                                </div>
+                                <div class="contact">
+                                    <i class="fa-brands fa-threads"></i>
+                                    <span>unreal@twchsol.inc</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-download">
+                                <button class="download">
+                                    Download Resume
+                                </button>
+                                <p class="show">Show <span class="port">Portfolio</span></p>
+                            </div>
+                            <div class="social">
+                                <img src="/images/Twitter.svg" alt="Twitter" />
+                                <img src="/images/Facebook.svg" alt="facebook" />
+                                <img src="/images/Instagram.svg" alt="insta" />
+                                <img src="/images/BG.svg" alt="BG" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- right side of main -->
+                <div class="right-side">
+                    <!-- SUMMARY -->
+                    <div class="summary">
+                        <span>
+                            <h4>Summary</h4>
+                        </span>
+                        <p class="text">A dedicated computer science graduate, excels in software development with
+                            expertise in Java,
+                            Python, React, and Node.js. Over three years of experience, she contributed to notable
+                            projects, including a successful e-commerce platform. Jane's proficiency extends to tools
+                            like VS Code and MySQL. A Dean's List awardee from the University of Computer Science, she
+                            continues to master emerging technologies, emphasizing collaboration and innovation.</p>
+                    </div>
+                    <!-- TOOLS -->
+
+                    <div class="tools">
+                        <span>
+                            <h4>Tools & Technologies</h4>
+                        </span>
+                        <div class="tech-tools">
+                            <div class="lang-tool">
+                                <div class="technologies">
+                                    <p>
+                                        Tools
+                                    </p>
+                                    <div class="techno">
+                                        <div class="chip"> <img src="/images/java.svg" alt="java" /><span
+                                                class="tech">Java</span></div>
+                                        <div class="chip"> <img src="/images/script.svg" alt="script" /><span
+                                                class="tech">Javascript</span></div>
+                                    </div>
+                                    <div class="techno">
+                                        <div class="chip"> <img src="/images/react.svg" alt="react" /><span
+                                                class="tech">React</span></div>
+                                        <div class="chip"> <img src="/images/git.svg" alt="git" /><span
+                                                class="tech">Git</span></div>
+                                        <div class="chip"> <img src="/images/node.svg" alt="node" /><span
+                                                class="tech">Node JS</span></div>
+                                    </div>
+                                </div>
+                                <div class="technologies">
+                                    <p>
+                                        Technologies
+                                    </p>
+                                    <div class="software">
+                                        <div class="chip"> <img src="/images/eclipse.svg" alt="eclipse" /><span
+                                                class="tech">Eclipse</span></div>
+                                        <div class="chip"> <img src="/images/visual.svg" alt="visual" /><span
+                                                class="tech">Visual Studio Code</span></div>
+                                    </div>
+                                    <div class="software">
+                                        <div class="chip"> <img src="/images/sql.svg" alt="sql" /><span
+                                                class="tech">SQL</span></div>
+                                        <div class="chip"> <img src="/images/jira.svg" alt="jira" /><span
+                                                class="tech">Jira</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- EXPERIENCE -->
+                    <div class="experience">
+                        <span>
+                            <h4>Experience</h4>
+                        </span>
+                        <div class="Details">
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Software Developer</span>
+                                    <span class="company">at Tech Solutions Inc.</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2021 - Present</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Jr. Software Developer</span>
+                                    <span class="company">at Tech Solutions Inc.</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2020 - 2021</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!-- EDUCATION -->
+                    <div class="experience">
+                        <span>
+                            <h4>Education</h4>
+                        </span>
+                        <div class="Details">
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Masters of Science in Software Engineering</span>
+                                    <span class="company">University of Melbourne, Australia.</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2018 - 2020</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Bachelor of Science in Computer Science</span>
+                                    <span class="company">Australian Institute of Information Technology</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2014 - 2018</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!-- PROJECTS -->
+                    <div class="experience">
+                        <span>
+                            <h4>Projects</h4>
+                        </span>
+                        <div class="Details">
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">E-commerce Platform</span>
+                                    <span class="company">Led the development of a scalable e-commerce platform using
+                                        React and Node.js. Enhanced user experience, resulting in a 20% increase in
+                                        online sales.</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">6 Months</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Data Analysis Tool</span>
+                                    <span class="company">Designed and implemented a data analysis tool using Python and
+                                        SQL, facilitating efficient data processing for informed decision-making.</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">4 Months</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">AI Chatbot Integration</span>
+                                    <span class="company">Integrated an AI-powered chatbot into the customer support
+                                        system, improving response times and customer satisfaction. Utilized NLP
+                                        techniques.</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2 Months</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!-- LICENSES -->
+                    <div class="experience">
+                        <span>
+                            <h4>Licenses & Certifications</h4>
+                        </span>
+                        <div class="Details">
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Microsoft Certified: Azure Developer Associate</span>
+                                    <span class="company">Microsoft</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2023</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Certified Java Developer</span>
+                                    <span class="company">LinkedIn Learning</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2022</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">AWS Certified Developer</span>
+                                    <span class="company">Australian Institute of Information Technology</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2020</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!-- AWARDS AND ACHIEVEMENTS -->
+                    <div class="experience">
+                        <span>
+                            <h4>Awards & Achievements</h4>
+                        </span>
+                        <div class="Details">
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Industry Recognition</span>
+                                    <span class="company">Acknowledged by industry experts for innovative contributions to the field</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2022</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Innovation Excellence Award</span>
+                                    <span class="company">Recognized for outstanding contributions to the e-commerce platform project</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2021</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Dean's List</span>
+                                    <span class="company">Australian Institute of Information Technology</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2017 - 2018</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Scholar of the Year</span>
+                                    <span class="company">Awarded Scholar of the Year for academic excellence and leadership</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2017</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="info">
+                                    <span class="name">Hackathon Winner</span>
+                                    <span class="company">Secured first place in the university-wide coding hackathon</span>
+                                </div>
+                                <div class="date">
+                                    <span class="date-year">2016</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
