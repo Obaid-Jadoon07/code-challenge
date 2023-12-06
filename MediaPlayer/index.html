@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css>
+    <title>Media Player</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main-container">
+            <!-- start side of container -->
+            <div class="start" >
+                <img src="/images/logo.svg" alt="logo" />
+                <div class="main-items">
+                    <div class="items-list">
+                        <div class="item active">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Home</span>
+                        </div>
+                        <div class="item ">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>Search</span>
+                        </div>
+                        <div class="item">
+                            <i class="fa-solid fa-list"></i>
+                            <span>Playlists</span>
+                        </div>
+                        <div class="item">
+                            <div class="notify">
+                            <i class="fa-regular fa-bell"></i>
+                            <span>Notifications</span>
+                        </div>
+                            <img class="bluedot" src="/images/dotblue.png" alt="dotblue" />
+                        </div>
+                        <div class="item">
+                            <i class="fa-regular fa-gem"></i>
+                            <span>Premium Content</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="end-items">
+                    <span class="download">Download Desktop App</span>
+                    
+                    <!-- Default dropup button -->
+                    <div class="btn-group dropup">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <div>
+                                <img src="/images/Avatar.png" alt="avatar" />
+                                <span>Jonathon Trott</span>
+                            </div>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                rock songs
+                            </li>
+                            <li>
+                                base songs
+                            </li>
+                            <li>
+                                old songs
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+             <!-- responsive-nav -->
+             <!-- <div class="second-nav">
+                <img src="/images/smallLogo.svg" alt="smallLogo" />
+                <div class="icons-list">
+                    <div class="linked-icons">
+                        <div class="active-icon">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-list"></i>
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-regular fa-gem"></i>
+                </div>
+                </div>
+                <div class="dp">
+                    <img src="/images/Avatar.png" alt="avatar" />
+                </div>
+
+            </div> -->
+           
+            <!-- end side of main container -->
+            <div class="end">
+                <div class="top">
+                    <div class="content">
+                        <div class="chips">
+                            <span>
+                                Music
+                            </span>
+                            <span>
+                                Podcasts
+                            </span>
+                            <span>
+                                Jazz
+                            </span>
+                            <span>
+                                Electronic
+                            </span>
+                            <span>
+                                Rock Classic
+                            </span>
+                            <span>
+                                Hip Hop
+                            </span>
+                        </div>
+                        <div class="popular-albums">
+                            <span class="popular-text">
+                                Popular Albums
+                            </span>
+                            <div class="albums">
+                                <div class="card">
+                                    <img class="dream" src="/images/dreamone.png" alt="dreamone" />
+                                    <div class="card-content">
+                                        <div class="card-text">
+                                            <span class="big-text">Ephemeral Dreams</span>
+                                            <span class="small-text">Sarah Melody`</span>
+                                        </div>
+                                        <i class="fa-solid fa-heart "></i>
+                                    </div>
+                                    <div class="media-info">
+                                        <div class="media-text">
+                                            <span class="small-text">12 Tracks</span>
+                                            <img src="/images/dot.png" alt="dot" />
+                                            <span class="small-text">31K Likes</span>
+                                        </div>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="dream" src="/images/dreamtwo.png" alt="dreamtwo" />
+                                    <div class="card-content">
+                                        <div class="card-text">
+                                            <span class="big-text">Ephemeral Dreams</span>
+                                            <span class="small-text">Sarah Melody`</span>
+                                        </div>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <div class="media-info">
+                                        <div class="media-text">
+                                            <span class="small-text">12 Tracks</span>
+                                            <img src="/images/dot.png" alt="dot" />
+                                            <span class="small-text">31K Likes</span>
+                                        </div>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="dream" src="/images/dreamthree.png" alt="dreamthree" />
+                                    <div class="card-content">
+                                        <div class="card-text">
+                                            <span class="big-text">Ephemeral Dreams</span>
+                                            <span class="small-text">Sarah Melody`</span>
+                                        </div>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <div class="media-info">
+                                        <div class="media-text">
+                                            <span class="small-text">12 Tracks</span>
+                                            <img src="/images/dot.png" alt="dot" />
+                                            <span class="small-text">31K Likes</span>
+                                        </div>
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- picked for you card -->
+                        <div class="picked-card">
+                            <span class="popular-text">
+                                Picked for you
+                            </span>
+                            <div class="blue-card">
+                                <div class="card-left">
+                                    <img class="blue" src="/images/blue.png" alt="blue" />
+                                </div>
+                                <div class="card-right">
+                                    <span class="small-text">PLAYLIST</span>
+                                    <span class="blue-head">New Music Friday Pakistan</span>
+                                    <span class="small-text">Listen to the Fresh new music from Pakistan and around the
+                                        world.</span>
+                                    <div class="card-detail">
+                                        <span class="detail">03:21:23</span>
+                                        <span class="detail">1.3M Likes</span>
+                                        <span class="detail">32 Tracks</span>
+                                    </div>
+                                    <div class="chips-blue">
+                                        <span>
+                                            Podcasts
+                                        </span>
+                                        <span>
+                                            Audio Books
+                                        </span>
+                                        <span>
+                                            Classic Fusion
+                                        </span>
+                                    </div>
+                                    <div class="bluecard-icons">
+                                        <div class="first-icons">
+                                            <i class="fa-regular fa-heart"></i>
+                                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                        </div>
+                                        <span>
+                                            <i class="fa-solid fa-play"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- recents of content -->
+                        <div class="recent">
+                            <span class="popular-text">
+                                Recent
+                            </span>
+                            <div class="horizontal-cards">
+                                <div class="hori-card">
+                                    <div class="left-hori">
+                                        <span class="small-text">1</span>
+                                        <img src="/images/green.png" alt="green" />
+                                        <div class="card-text">
+                                            <span class="big-text">Ephemeral Dreams</span>
+                                            <span class="small-text">Sarah Melody`</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="right-hori">
+                                        <div class="card-text">
+                                            <span class="big-text">Serenity Symphony</span>
+                                            <span class="small-text">2022`</span>
+                                        </div>
+                                        <span class="time">04:32</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+
+                                </div>
+                                <div class="hori-card">
+                                    <div class="left-hori">
+                                        <span class="small-text">1</span>
+                                        <img src="/images/green.png" alt="green" />
+                                        <div class="card-text">
+                                            <span class="big-text">Ephemeral Dreams</span>
+                                            <span class="small-text">Sarah Melody`</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="right-hori">
+                                        <div class="card-text">
+                                            <span class="big-text">Serenity Symphony</span>
+                                            <span class="small-text">2022`</span>
+                                        </div>
+                                        <span class="time">04:32</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+
+                                </div>
+                                <div class="hori-card">
+                                    <div class="left-hori">
+                                        <span class="small-text">1</span>
+                                        <img src="/images/green.png" alt="green" />
+                                        <div class="card-text">
+                                            <span class="big-text">Ephemeral Dreams</span>
+                                            <span class="small-text">Sarah Melody`</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="right-hori">
+                                        <div class="card-text">
+                                            <span class="big-text">Serenity Symphony</span>
+                                            <span class="small-text">2022`</span>
+                                        </div>
+                                        <span class="time">04:32</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+
+                                </div>
+                                <div class="hori-card">
+                                    <div class="left-hori">
+                                        <span class="small-text">1</span>
+                                        <img src="/images/green.png" alt="green" />
+                                        <div class="card-text">
+                                            <span class="big-text">Ephemeral Dreams</span>
+                                            <span class="small-text">Sarah Melody`</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="right-hori">
+                                        <div class="card-text">
+                                            <span class="big-text">Serenity Symphony</span>
+                                            <span class="small-text">2022`</span>
+                                        </div>
+                                        <span class="time">04:32</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+
+                                </div>
+                                <div class="hori-card">
+                                    <div class="left-hori">
+                                        <span class="small-text">1</span>
+                                        <img src="/images/green.png" alt="green" />
+                                        <div class="card-text">
+                                            <span class="big-text">Ephemeral Dreams</span>
+                                            <span class="small-text">Sarah Melody`</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="right-hori">
+                                        <div class="card-text">
+                                            <span class="big-text">Serenity Symphony</span>
+                                            <span class="small-text">2022`</span>
+                                        </div>
+                                        <span class="time">04:32</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- right side of end -->
+                <div class="bottom">
+                    <div class="search">
+                        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search for something"
+                            title="Type in a category">
+                        <i class="fa-solid fa-magnifying-glass menuglass"></i>
+                    </div>
+                    <!-- popular artists -->
+                    <div class="popular">
+                        <span class="popular-text">
+                            Popular Artists
+                        </span>
+                        <div class="artists">
+                            <div class="artist-card">
+                                <img src="/images/sarah.png" alt="sarah" />
+                                <span class="small-text">Sarah Melody`</span>
+                            </div>
+                            <div class="artist-card">
+                                <img src="/images/javier.png" alt="javier" />
+                                <span class="small-text">Sarah Melody`</span>
+                            </div>
+                            <div class="artist-card">
+                                <img src="/images/maya.png" alt="maya" />
+                                <span class="small-text">Sarah Melody`</span>
+                            </div>
+                            <div class="artist-card">
+                                <img src="/images/andre.png" alt="andre" />
+                                <span class="small-text">Sarah Melody`</span>
+                            </div>
+                            <div class="artist-card">
+                                <img src="/images/alcia.png" alt="alcia" />
+                                <span class="small-text">Sarah Melody`</span>
+                            </div>
+                            <div class="artist-card">
+                                <img src="/images/carios.png" alt="carios" />
+                                <span class="small-text">Sarah Melody`</span>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <!-- top podcasts -->
+                    <div class="popular">
+                        <span class="popular-text">
+                            Top Podcasts
+                        </span>
+                        <div class="podcast">
+                            <div class="artist-card">
+                                <img src="/images/mindful.png" alt="mindful" />
+                                <span class="small-text">Sarah Melody`</span>
+                            </div>
+                            <div class="artist-card">
+                                <img src="/images/podcast.png" alt="podcast" />
+                                <span class="small-text">Sarah Melody`</span>
+                            </div>
+                            <div class="artist-card">
+                                <img src="/images/techtalk.png" alt="techtalk" />
+                                <span class="small-text">Sarah Melody`</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- next in queue -->
+                    <div class="popular">
+                        <span class="popular-text">
+                            Next in Queue
+                        </span>
+                        <div class="horizontal-cards">
+                            <div class="hori-card">
+                                <div class="left-hori">
+                                    <i class="fa-solid fa-heart "></i>
+                                    <img src="/images/green.png" alt="green" />
+                                    <div class="card-text">
+                                        <span class="big-text">Ephemeral Dreams</span>
+                                        <span class="small-text">Sarah Melody`</span>
+                                    </div>
+
+                                </div>
+                                <div class="right-hori">
+                                    <span class="time">04:32</span>
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+
+                            </div>
+                            <div class="hori-card">
+                                <div class="left-hori">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <img src="/images/green.png" alt="green" />
+                                    <div class="card-text">
+                                        <span class="big-text">Ephemeral Dreams</span>
+                                        <span class="small-text">Sarah Melody`</span>
+                                    </div>
+
+                                </div>
+                                <div class="right-hori">
+
+                                    <span class="time">04:32</span>
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+
+                            </div>
+                            <div class="hori-card">
+                                <div class="left-hori">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <img src="/images/green.png" alt="green" />
+                                    <div class="card-text">
+                                        <span class="big-text">Ephemeral Dreams</span>
+                                        <span class="small-text">Sarah Melody`</span>
+                                    </div>
+
+                                </div>
+                                <div class="right-hori">
+
+                                    <span class="time">04:32</span>
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+
+                            </div>
+                            <div class="hori-card">
+                                <div class="left-hori">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <img src="/images/green.png" alt="green" />
+                                    <div class="card-text">
+                                        <span class="big-text">Ephemeral Dreams</span>
+                                        <span class="small-text">Sarah Melody`</span>
+                                    </div>
+
+                                </div>
+                                <div class="right-hori">
+
+                                    <span class="time">04:32</span>
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+
+                            </div>
+                            <div class="hori-card">
+                                <div class="left-hori">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <img src="/images/green.png" alt="green" />
+                                    <div class="card-text">
+                                        <span class="big-text">Ephemeral Dreams</span>
+                                        <span class="small-text">Sarah Melody`</span>
+                                    </div>
+
+                                </div>
+                                <div class="right-hori">
+
+                                    <span class="time">04:32</span>
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-media">
+            <div class="track">
+                <img src="/images/Bgreen.png" alt="Bgreen" />
+                <div class="card-text">
+                    <span class="big-text">Rhythmic Echoes</span>
+                    <span class="small-text">Alex Harmon</span>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="player">
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 25%"></div>
+                </div>
+                <div class="duration">
+                    <span class="small-text">03:12</span>
+                    <span class="small-text">-02:08</span>
+                </div>
+                <div class="controls">
+                    <i class="fa-solid fa-shuffle control"></i>
+                    <i class="fa-solid fa-backward-step control"></i>
+                    <i class="fa-regular fa-circle-pause control"></i>
+                    <i class="fa-solid fa-forward-step control"></i>
+                    <i class="fa-solid fa-repeat control"></i>
+                </div>
+            </div>
+            <div class="soundbar">
+                <i class="fa-solid fa-volume-off control"></i>
+                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 25%">25%</div>
+                  </div>
+                <i class="fa-solid fa-volume-high control"></i>
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
